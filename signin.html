@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <style>
+    body {
+        background-image: url('signin.jpg')
+    }
+    </style>
+</head>
+<body>
+    <div class="div_div">
+        <br><br><br><br>
+    <div class="div">    
+    <h1 class='h1'>Please Login</h1>
+    <label>User Name<br><input type="text" id="Username" required placeholder=" User Name" class="input"></label>
+    <label class="password">Password<br><input type="password" id="Password" required placeholder=" Password" class="input"></label>
+    <button onclick="signin();if (signin_h3.innerHTML == 'login successful'){
+        setTimeout(function () {
+            window.location.href= 'home.html'
+        },1500)
+    }" class="button"><span>Sign In</span></button>
+    <h3 id="signin_h3"></h3>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

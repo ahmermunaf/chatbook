@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <style>
+    * {
+        color: #618685;
+    }
+    body {
+        background-image: url('signup.jpg')
+    }
+    </style>
+</head>
+<body>
+    <div class="div_div">
+    <div class="div">
+    <h1 class="h1">To Sign Up</h1>
+    <p>Please fill the following forms.</p>
+    <label class="full_name">Full Name<br><input class="input" type="text" id="full_name" required placeholder=" Full Name"></label>
+    <label class="user_name">User Name<br><input class='input' type="text" id="user_name" required placeholder=" User Name"></label>
+    <label class="pass_word">Password<br><input class='input' type="password" id="pass_word" required placeholder=" Password"></label>
+    <label class="number">Number<br><input class='input' type="number" id="number" placeholder=" Phone Number"></label>
+    <button class='button' onclick="signup();setTimeout(sign_up,1500)" ><span>Sign Up</span></button>
+    <h3 id="signup_h3"></h3>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

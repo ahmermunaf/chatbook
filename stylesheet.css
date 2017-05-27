@@ -1,0 +1,115 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%; 
+}
+label, input {
+    display: block;
+}
+label {
+    margin-bottom: 20px;
+}
+.button {
+  border-radius: 20px;
+  background-color: #4b1657;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  align-items: center;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.h1 {
+    font-size: 50px;
+}
+input {
+    display: inline-block;
+}
+label {
+    text-indent: -200px;
+}
+.password {
+    text-indent: -215px;
+}
+.full_name {
+      text-indent: -210px;
+}
+.pass_word {
+    text-indent: -215px
+}
+.number {
+    text-indent: -235px;
+}
+div.div { 
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.div_div {
+    text-align: center;
+}
+.index_h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.main_div {
+    text-align: center;
+}
+.index_div2 {
+    display: inline-block;
+    border: 2px solid #000000;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin: 00px 100px 00px 100px;
+    border-radius: 50px;
+}
+.index_div {
+display: inline-block;
+    border: 2px solid #000000;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin: 00px 100px 10px 100px;
+    border-radius: 50px;
+    
+}
+#login,#signup {
+    font-size: 40px;
+} 
+.main_div{
+    margin-top:150px 
+}
+.input {
+    border-radius: 20px;
+}
